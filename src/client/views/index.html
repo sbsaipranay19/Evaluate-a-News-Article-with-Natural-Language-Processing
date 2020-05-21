@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Evaluate News Arcticle</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                <h1 class="logo">Evaluate a News Article with NLP</h1>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h1 class="heading">Enter URL to be evaluated below</h1>
+                <form onsubmit="return handleSubmit(event)">
+                    <input id="url" type="url" name="url" placeholder="Enter URL to evaluate it">
+                    <input class="submit" type="submit" name="submit" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            <section>
+
+            <section class="results">
+                <strong>Form Results:</strong>
+                <div id="polarity"></div>
+                <div id="subjectivity"></div>
+                <div id="polarity-confidence"></div>
+                <div id="subjectivity-confidence"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy 2020 Sai Pranay</p>
+        </footer>
+
+    </body>
+</html>
