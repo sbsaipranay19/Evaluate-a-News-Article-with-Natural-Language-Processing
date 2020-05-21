@@ -15,10 +15,10 @@ a)Download this repository else clone it onto your PC.
 
 b)Get Your APi key and ID <a target="_blank" href="https://developer.aylien.com/signup">here</a>.
 
-c)Add .env file to the repository and than add your ID and key.
-API_ID=**************************
-API_KEY=**************************
-Replace '**' with your ID and key
+c)Add .env file to the repository and than add your ID and key. <br>
+API_ID=************************** <br>
+API_KEY=************************** <br>
+Replace '**' with your ID and key 
 
 d)Move to the cmd and type npm i. To install all the required dependencies for the project.
 
